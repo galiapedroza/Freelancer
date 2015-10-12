@@ -1,0 +1,277 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+.box{
+	max-width: 75%;
+	margin: auto;
+	text-align: center;
+}
+h3{
+	font-size: 35px;
+	margin-top: 4%;
+}
+
+/*Header*/
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+.black-bg {
+    background: #424a5d;
+    border-bottom: 1px solid #293241;
+}
+nav a{
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+}
+.collapse li a:hover{
+	background-color: rgb(39, 38, 38);
+}
+.collapse li a{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 15px;
+}
+
+/* Hamburguesa*/
+.navbar .navbar-brand {
+  font-size: 35px;
+  background: #fff;
+}
+.navbar-header .navbar-toggle .icon-bar {
+  background: #fff;
+}
+.navbar .navbar-right .separator {
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+/*Encabezado Seccion*/
+.main-content .box{
+	margin-top: 60px;
+	padding: 7% 0px;
+}
+
+.bg-hade{
+	background-color: #18bc9c;
+	color: #fff;
+	text-align: center;
+}
+h2{
+	font-size: 3.5em;
+	font-weight: 700;
+	margin: 0 0 25px 0;
+}
+hr { 
+  background-color: #fff;
+  height: 3px;
+  width: 20%;
+  margin: auto;
+}
+.titulo i{
+	position: relative;
+	bottom: 20px;
+	background: #18bc9c;
+	border: 7px solid #18bc9c;
+	font-size: 23px !important;
+}
+.menu{
+	margin: -10px;
+	font-size: 18px;
+}
+.menu a{
+	color: #fff;
+	margin: 0px 8px;
+}
+
+/*Portafolio*/
+.subtitulo h3{
+	font-weight: bolder;
+}
+.subtitulo hr{
+	background-color: #2c3e50;
+	border-top: 1px solid #2c3e50;
+}
+.subtitulo i{
+	position: relative;
+	bottom: 20px;
+	background: #fff;
+	border: 7px solid #fff;
+	font-size: 22px;
+}
+.bg-hade .subtitulo hr{
+	background-color: #fff;
+	border-top: 1px solid #fff;
+}
+.bg-hade .subtitulo i{
+	background: #18bc9c;
+	border: 7px solid #18bc9c;
+}
+.portafolio .imagen{
+	margin-bottom: 0%;
+}
+
+/*About*/
+.download {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.download button:hover{
+	background: #fff;
+	color: #2c3e50;
+}
+.btn{
+	background: transparent;
+	border: 2px solid #fff;
+	color: #2c3e50;
+	font-weight: bold;
+}
+
+/*Contact Me*/
+.login-wrap hr{
+	background-color: #eee;
+	margin: 1% 0;
+	height: 1px;
+	width: 100%;
+}
+.form-control{
+	border: none;
+}
+.login-wrap button{
+	background: #18bc9c;
+	color: #fff;
+	border: 2px solid #18bc9c;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 12px 35px;
+}
+
+/*Footer*/
+footer{
+	color: #fff;
+}
+.title{
+	font-weight: bold;
+	margin-bottom: 10%;
+	margin-top: 8%;
+}
+footer p{
+	font-weight: none;
+	margin: 0;
+}
+footer i{
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 15px;
+	border-radius: 50%;
+}
+footer i:hover{
+	color: #18bc9c;
+	border: 2px solid #18bc9c;
+}
+span{
+	color: #18bc9c;
+}
+
+/*Utilidades*/
+.p-tb{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.mb {margin-bottom: 25px;}
+
+.m-lr {
+	margin: 0 15%;
+}
+
+.pd{
+	padding-right:3%;
+	padding-left: 3%;
+}
+.bg-blue {background: #233140;}
+
+.bg-blue p{
+	font-size: 11px;
+	padding: 2% 0;
+}
+.pd-0{
+	padding: 0px;
+}
+
+/*About Me*/
+.profile{
+	padding-bottom: 2%;
+}
+.title-about{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+/*blog*/
+.title-blog{
+	font-size: 20px;
+}
+.media-left{
+	padding-right:30px;
+}
+.blog p{
+	font-weight: bolder;
+}
+.blog h3:hover{
+	text-decoration: underline;
+}
+.blog h3{
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #18bc9c;
+}
+.pagination li a{
+	padding: 15px 20px;
+}
+.pagination span{
+	color: #fff;
+}
+.blog a{
+	float: left;
+}
+
+/*Background Lupa: Hover*/
+.imagen{
+	position: relative;
+	margin-bottom: 6%;
+}
+.imagen:hover img{
+	opacity: 0.2;
+}
+.imagen i {
+	position: absolute;
+	bottom: 25%;
+	left: 33%;
+	font-size: 3em;
+	color: transparent;
+	border: 3px solid transparent;
+	padding: 8% 9%;
+	border-radius: 50%;
+}
+a.imagen:hover{
+	background-color: rgba(24,188,156,0.9);
+	float: left;
+}
+
+.imagen:hover i {
+	color: #fff;
+	border: 3px solid #fff;
+}
